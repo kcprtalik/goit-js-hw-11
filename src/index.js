@@ -55,7 +55,7 @@ function inputOn(event) {
         }
       }
     })
-    .catch(error);
+    .catch(error => console.log(error));
 }
 
 //  FUNCTION 2. LOAD MORE
